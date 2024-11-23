@@ -3,6 +3,13 @@ package com.jangburich.domain.store.dto;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@RequiredArgsConstructor
 public class StoreTeamResponse {
     Long id;
     Integer remainPoint;
